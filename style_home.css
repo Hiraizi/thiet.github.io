@@ -1,0 +1,73 @@
+.logo img {
+    width: 200px;
+    background-color:unset;
+    box-shadow: none;
+}
+.logo img:hover{
+    box-shadow: none;
+    background-color: unset;
+}
+.image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.col-25 {
+    width: 25%;
+    float: left;
+}
+.prod {
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod .name {
+    color: orangered;
+}
+.prod img {
+    max-width: 100%;
+    height: auto;
+}
+.prod .icon img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.prod .image {
+    max-width: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+}
+.prod .price {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 14px;
+    color: orange;
+}
+.prod .icons {
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+    width: 25px;
+}
+.prod .new-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+}
+.product-card .new-icon img {
+    width: 10px;
+    height: auto;
+    cursor: pointer;
+}
+.container>header>p{
+    font-size: 100px;
+    height: 10px;
+}

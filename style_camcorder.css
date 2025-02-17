@@ -1,0 +1,273 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.container>header{
+    background-image: url('images/index/anhnen.jpg');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container>nav{
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+}
+.container>article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container>aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+.container>footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    clear: both;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.logo img {
+    width: 200px;
+    background-color:unset;
+    box-shadow: none;
+}
+.logo img:hover{
+    box-shadow: none;
+    background-color: unset;
+}
+.column {
+    width: 33%;
+    float: left;
+}
+.san-pham {
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham .ten {
+    font-size: 20px;
+    color: black;
+}
+.san-pham img {
+    max-width: 95%;
+}
+.san-pham .gia {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.san-pham .gia del {
+    color: gray;
+}
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+  }
+.company-info {
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+  }
+
+.menu {
+    background-color: orangered;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0;
+    margin: 0;
+}
+.menu > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu > ul > li > a:hover {
+    color: yellow;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    list-style: none;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.menu ul ul a {
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+    color: orangered;
+    line-height: 30px;
+    padding: 5 15px;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.menu > ul > li:hover > ul {
+    display: block;
+}
+
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+.logo img {
+    width: 15%;
+    background-color:unset;
+    box-shadow: none;
+}
+.logo img:hover{
+    box-shadow: none;
+    background-color: unset;
+}
+.logIn > ul {
+    border-bottom-left-radius: 30px;
+    text-align: right;      
+    list-style-type: none;  
+    position: fixed;
+    position: absolute;        
+    top: -20px;                
+    right: 0px;              
+    background-color: orangered; 
+    padding: 10px 20px;     
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+
+}
+.logIn>ul>a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.logIn>ul>a:hover{
+    color: yellow;
+}
+.vmenu {
+    padding: 0;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a {
+    background: url('bullet_hover.gif') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover {
+    background: url('bullet.png') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.vmenu>li>a::before{
+    content: "●";
+    color: blue;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.col-25 {
+    width: 25%;
+    float: left;
+}
+.prod {
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod .name {
+    color: orangered;
+}
+.prod img {
+    max-width: 100%;
+    height: auto;
+}
+.prod .icon img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.prod .image {
+    max-width: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+}
+.prod .price {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 14px;
+    color: orange;
+}
+.prod .icons {
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+    width: 25px;
+}
+.prod .new-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+}
+.product-card .new-icon img {
+    width: 10px;
+    height: auto;
+    cursor: pointer;
+}
